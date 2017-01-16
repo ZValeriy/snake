@@ -18,7 +18,8 @@ namespace Snake
 
             HorizontalLine line = new HorizontalLine(5,10,8,'+');
             line.Draw();
-
+            VerticalLine line1 = new VerticalLine(0, 31, 4,'=');
+            line1.Draw();
            
             Console.ReadLine();
         }
